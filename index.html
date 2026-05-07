@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3概念解释 - 费曼学习法</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-background"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <div class="hero">
+        <nav class="nav-bar">
+            <div class="logo-container">
+                <span class="logo-dot"></span>
+                <span class="logo-text">WEB3<span class="logo-number">EXPLAINER</span></span>
+            </div>
+            <div class="progress-indicator">
+                <span class="progress-text">已读 <span id="readCount">0</span>/10</span>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <div class="hero-code">
+                <div class="code-line">&gt; <span class="code-keyword">SYSTEM</span> ONLINE</div>
+                <div class="code-line">&gt; <span class="code-keyword">CONCEPTS</span> LOADED</div>
+                <div class="code-line">&gt; <span class="code-keyword">READY</span> TO LEARN</div>
+            </div>
+
+            <h1 class="hero-title">10个核心概念</h1>
+            <p class="hero-subtitle">用大白话，搞懂Web3</p>
+        </div>
+
+        <div class="scroll-hint">
+            <span>开始阅读</span>
+            <div class="scroll-line"></div>
+        </div>
+    </div>
+
+    <main class="container">
+        <section class="stage-section">
+            <div class="stage-header">
+                <div class="stage-label">
+                    <span class="label-icon">📚</span>
+                    <span class="label-text">第一阶段</span>
+                </div>
+                <h2>入门基础</h2>
+                <p class="stage-description">搞懂10个核心概念，小白也能懂</p>
+            </div>
+
+            <div class="concepts-grid">
+                <div class="concept-card" data-concept="1">
+                    <div class="card-header">
+                        <span class="card-id">概念 01</span>
+                        <span class="card-badge">基础</span>
+                        <span class="read-badge" id="read-1" style="display:none;">✅ 已读</span>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="images/concept1.jpg" alt="中心化 vs 去中心化" class="card-image">
+                    </div>
+                    <h3>中心化 vs 去中心化</h3>
+                    <p class="card-punchline">从王会计到全村人记账</p>
+                </div>
+
+                <div class="concept-card" data-concept="2">
+                    <div class="card-header">
+                        <span class="card-id">概念 02</span>
+                        <span class="card-badge">核心</span>
+                        <span class="read-badge" id="read-2" style="display:none;">✅ 已读</span>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="images/concept2.jpg" alt="区块链" class="card-image">
+                    </div>
+                    <h3>区块链</h3>
+                    <p class="card-punchline">一本改不了的公共账本</p>
+                </div>
+
+                <div class="concept-card" data-concept="3">
+                    <div class="card-header">
+                        <span class="card-id">概念 03</span>
+                        <span class="card-badge">货币</span>
+                        <span class="read-badge" id="read-3" style="display:none;">✅ 已读</span>
+                    </div>
+                    <h3>加密货币</h3>
+                    <p class="card-punchline">数字世界的游戏币</p>
+                </div>
+
+                <div class="concept-card" data-concept="4">
+                    <div class="card-header">
+                        <span class="card-id">概念 04</span>
+                        <span class="card-badge">工具</span>
+                        <span class="read-badge" id="read-4" style="display:none;">✅ 已读</span>
+                    </div>
+                    <h3>钱包</h3>
+                    <p class="card-punchline">钥匙包，不装钱</p>
+                </div>
+
+                <div class="concept-card" data-concept="5">
+                    <div class="card-header">
+                        <span class="card-id">概念 05</span>
+                        <span class="card-badge">密码</span>
+                        <span class="read-badge" id="read-5" style="display:none;">✅ 已读</span>
+                    </div>
+                    <h3>私钥 vs 公钥</h3>
+                    <p class="card-punchline">密码 vs 银行卡号</p>
+                </div>
+
+                <div class="concept-card" data-concept="6">
+                    <div class="card-header">
+                        <span class="card-id">概念 06</span>
+                        <span class="card-badge">合约</span>
+                        <span class="read-badge" id="read-6" style="display:none;">✅ 已读</span>
+                    </div>
+                    <h3>智能合约</h3>
+                    <p class="card-punchline">自动售货机</p>
+                </div>
+
+                <div class="concept-card" data-concept="7">
+                    <div class="card-header">
+                        <span class="card-id">概念 07</span>
+                        <span class="card-badge">应用</span>
+                        <span class="read-badge" id="read-7" style="display:none;">✅ 已读</span>
+                    </div>
+                    <h3>DApp</h3>
+                    <p class="card-punchline">没有老板的App</p>
+                </div>
+
+                <div class="concept-card" data-concept="8">
+                    <div class="card-header">
+                        <span class="card-id">概念 08</span>
+                        <span class="card-badge">费用</span>
+                        <span class="read-badge" id="read-8" style="display:none;">✅ 已读</span>
+                    </div>
+                    <div class="card-image-container">
+                        <img src="images/concept4.jpg" alt="Gas费" class="card-image">
+                    </div>
+                    <h3>Gas费</h3>
+                    <p class="card-punchline">区块链过路费</p>
+                </div>
+
+                <div class="concept-card" data-concept="9">
+                    <div class="card-header">
+                        <span class="card-id">概念 09</span>
+                        <span class="card-badge">机制</span>
+                        <span class="read-badge" id="read-9" style="display:none;">✅ 已读</span>
+                    </div>
+                    <h3>共识机制</h3>
+                    <p class="card-punchline">一群陌生人如何相信同一本账本</p>
+                </div>
+
+                <div class="concept-card summary-card" data-concept="10">
+                    <div class="card-header">
+                        <span class="card-id">总结</span>
+                        <span class="card-badge">回顾</span>
+                        <span class="read-badge" id="read-10" style="display:none;">✅ 已读</span>
+                    </div>
+                    <h3>阶段一总结</h3>
+                    <p class="card-punchline">一句话记住所有概念</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-divider"></div>
+            <p class="footer-text">
+                <span class="footer-symbol">⟨/⟩</span> BUILT FOR BEGINNERS <span class="footer-year">2026</span>
+            </p>
+        </footer>
+    </main>
+
+    <div id="conceptModal" class="modal">
+        <div class="modal-backdrop" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">
+                <span class="close-text">[X]</span>
+            </button>
+            <div id="conceptContent" class="concept-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
